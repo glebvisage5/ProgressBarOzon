@@ -70,6 +70,12 @@ ProgressBar
 |-> style.css - Стили приложения
 ```
 
+## ✔️ Результат
+<img width="558" height="327" alt="image" src="https://github.com/user-attachments/assets/8ec235a1-0d2c-4230-bf73-ed33d6031936" />
+<img width="159" height="225" alt="image" src="https://github.com/user-attachments/assets/189a5f05-8edb-407a-a84a-81559a4ea27e" />
+
+
+
 ## 🎯 Сделано согласно ТЗ
 - Реализован компонент Progress
 - Поддержка состояний
@@ -81,3 +87,4 @@ ProgressBar
 
 ## 📬 Контакты
 Telegram: @Visage2
+
