@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Progress</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+  <div class="app">
+    <div class="card">
+      <div class="layout">
+        <div id="progressBlock" class="progress-block">
+          <div class="progress-title">Progress</div>
+          <div class="progress-wrapper">
+            <svg class="progress-svg" viewBox="0 0 100 100">
+              <circle class="progress-bg-circle" cx="50" cy="50" r="40"></circle>
+              <circle id="progressArc" class="progress-arc" cx="50" cy="50" r="40" stroke-dasharray="251.327" stroke-dashoffset="251.327"></circle>
+            </svg>
+            <div id="progressValueText" class="progress-value-text">0</div>
+          </div>
+        </div>
+
+        <div class="controls">
+          <div class="control-group">
+            <span class="control-label">Value (0–100)</span>
+            <input id="valueInput" class="control-input" type="number" min="0" max="100" value="60"/>
+          </div>
+
+          <div class="control-group">
+            <span class="control-label">Animate</span>
+            <label class="toggle">
+              <input id="animateToggle" type="checkbox" />
+              <span class="slider"></span>
+            </label>
+          </div>
+
+          <div class="control-group">
+            <span class="control-label">Hide</span>
+            <label class="toggle">
+              <input id="hideToggle" type="checkbox" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
